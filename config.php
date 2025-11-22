@@ -4,7 +4,7 @@
 // VULNERABILITY: Hardcoded sensitive credentials
 $servername = "localhost";
 $username = "admin_user";
-$password = "MySuperSecretPassword123!"; // SAST should flag this
+$password = "MySuperSecretPassword9999!"; // SAST should flag this
 $dbname = "users_db";
 
 // Create connection
